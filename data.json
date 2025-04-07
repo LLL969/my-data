@@ -1,0 +1,169 @@
+{
+  "data": [
+    {
+      "type": "sankey",
+      "domain": {
+        "x": [0, 1],
+        "y": [0, 1]
+      },
+      "orientation": "h",
+      "valueformat": ".0f",
+      "valuesuffix": "TWh",
+      "node": {
+        "pad": 15,
+        "thickness": 15,
+        "line": {
+          "color": "blue",
+          "width": 0.5
+        },
+        "label": [
+          "Patient Input",
+          "Blurring or Distortion",
+          "Amplified Breathing Sound",
+          "Audience Microexpressions",
+          "Passage Narrowness",
+          "Gaze Intensity",
+          "Evaluation Visualization",
+          "Synchronized Heartbeat Sound",
+          "Lighting Color Temperature",
+          "Motion Blur Intensity",
+          "Vertical Spatial Oppression",
+          "Speech Fragmentation",
+          "Surveillance Camera Density",
+          "Invisible Walls",
+          "Pressure Vest Gradient",
+          "Chest Tightening Sensation",
+          "Directional Whispering Intensity",
+          "Crowd Density",
+          "Time Dilation",
+          "Environmental Sound Chaos Level",
+          "Stage Constriction",
+          "Semantic Noise Density",
+          "Trembling Sensation",
+          "Avoidance Behavior",
+          "Sweating Palms",
+          "Footstep Hesitation",
+          "Visual Focus Dynamics",
+          "Overwhelming Silence",
+          "Tunnel Vision",
+          "Dry Throat Sensation",
+          "Visual Cues",
+          "Auditory Cues",
+          "Tactile Cues",
+          "Environmental Atmosphere",
+          "Psychological Projection",
+          "Sensory Metaphors",
+          "Crowd Density",
+          "Gaze Intensity",
+          "Lighting Color Temperature",
+          "Stage Size",
+          "Visual Focus Dynamics",
+          "Clothing Color Threat Level",
+          "Motion Blur Intensity",
+          "Semantic Noise Density",
+          "Directional Whispering Intensity",
+          "Amplified Breathing Sound",
+          "Synchronized Heartbeat Sound",
+          "Environmental Sound Chaos Level",
+          "Pressure Vest Gradient",
+          "Neck Restraint Sensation",
+          "Vertical Spatial Oppression",
+          "Passage Narrowness",
+          "Audience Microexpressions",
+          "Surveillance Camera Density",
+          "Evaluation Visualization",
+          "Blurring or Distortion",
+          "Invisible Walls",
+          "Final Scene Prompt"
+        ],
+        "color": [
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9"
+        ]
+      },
+      "link": {
+        "source": [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 1, 4, 7, 9, 13, 16, 28, 2, 8, 10, 16, 19, 21,
+          24, 3, 14, 15, 22, 23, 25, 27, 5, 11, 17, 18, 20, 26, 29, 6, 12,
+          19, 21, 24, 26, 28, 4, 7, 9, 13, 16, 20, 25, 30, 30, 30, 30, 30,
+          30, 30, 31, 31, 31, 31, 31, 32, 32, 33, 33, 34, 34, 34, 35, 35,
+          36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51,
+          52, 53, 54, 55, 56
+        ],
+        "target": [
+          1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+          20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 30, 30, 30, 30, 30,
+          30, 31, 31, 31, 31, 31, 31, 31, 32, 32, 32, 32, 32, 32, 32, 33,
+          33, 33, 33, 33, 33, 33, 34, 34, 34, 34, 34, 34, 34, 35, 35, 35,
+          35, 35, 35, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47,
+          48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 57, 57, 57, 57, 57, 57,
+          57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57
+        ],
+        "value": [
+          500, 500, 500, 500, 500, 500, 400, 400, 400, 400, 400, 400, 400,
+          350, 350, 350, 350, 350, 300, 300, 250, 250, 200, 200, 200, 180,
+          180, 400, 400, 400, 400, 400, 400, 400, 350, 350, 350, 350, 350,
+          300, 300, 250, 250, 200, 200, 200, 180, 180, 150, 150, 150, 150,
+          150, 150, 150, 120, 120, 120, 120, 120, 120, 120, 100, 100, 100,
+          100, 100, 100, 100, 80, 80, 80, 80, 80, 80, 80, 60, 60, 60, 60,
+          60, 60, 60, 40, 40, 40, 40, 40, 40, 40, 500, 500, 500, 500, 500,
+          500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500,
+          500, 500, 500, 500, 500, 500, 500, 500, 500, 500
+        ],
+        "color": [
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9", "#4393C9",
+          "#4393C9"
+        ],
+        "label": [
+          "", "", "", "", "", "", "", "", "", "", 
+          "", "", "", "", "", "", "", "", "", "",
+          "", "", "", "", "", "", "", "", "", "",
+          "", "", "", "", "", "", "", "", "", "",
+          "", "", "", "", "", "", "", "", "", "",
+          "", "", "", "", "", "", "", "", "", "",
+          "", "", "", "", "", "", "", "", "", "",
+          "", "", "", "", "", "", "", "", "", "",
+          "", "", "", "", "", "", "", "", "", "",
+          "", "", "", "", "", "", "", "", "", "",
+          "", "", "", "", "", "", "", "", "", "",
+          "", "", "", "", "", "", "", "", "", "",
+          ""
+        ]
+      }
+    }
+  ],
+  "layout": {
+    "font_size": 10,
+    "title": "Cognitive Semantic Scene Prompting Flow"
+  },
+  "settings": {
+    "nodeColors": {
+      "patientInput": "#05519D",
+      "keyConceptExtraction": "#2172B2", 
+      "scenePromptCategories": "#4393C9",
+      "sceneGenerationPrompts": "#68AED8",
+      "finalScenePrompt": "#A0CBDE"
+    }
+  },
+  "texts": {
+    "patientInputText": "I step onto the stage, the bright overhead lights casting harsh shadows around me. The air feels thick, almost suffocating, as I stand in front of the podium. A sea of unfamiliar faces stretches before me, their expressions unreadable. My breath catches in my throat as an overwhelming silence blankets the room.I can feel the weight of their gazes, pressing against my skin like an invisible force. My heart pounds erratically, a rapid drumbeat that drowns out any coherent thoughts. My palms are slick with sweat, and an unbearable tightness grips my chest. I try to steady my breathing, but my lungs refuse to cooperate.I grip the edges of the podium, hoping for some semblance of stability, but my fingers tremble uncontrollably. The microphone amplifies every shaky breath I take, magnifying my unease. The crowd is motionless, yet in my mind, I can see their eyes dissecting every detail of my posture, every hesitation in my words.The noise in the room shifts—whispers? Murmurs? Or is it just my own paranoia distorting reality? My vision narrows, the edges blurring as a dizzying tunnel of focus locks onto a single pair of eyes in the front row. Are they judging me? Mocking me? Waiting for me to make a mistake? My thoughts spiral, drowning in waves of self-doubt.My legs feel weak, and I fight the urge to turn and flee. I lower my gaze, desperate to escape their scrutiny. Maybe if I make myself smaller, less noticeable, I can disappear into the background. But I know that's impossible—I am center stage, every movement, every hesitation exposed under the relentless spotlight.The words I prepared evaporate from my mind, leaving me adrift in a sea of silence. My lips part, but no sound comes. I can feel the tension stretching with every second that passes, each moment amplifying the pressure to speak. The longer I hesitate, the worse it becomes, the more I convince myself that I am failing.A bead of sweat trickles down my temple. My heartbeat echoes in my ears. The walls seem to close in, the room shrinking, the space around me tightening. I am trapped in this moment, in their expectations, in my own fear.And then—someone shifts in their seat. A cough breaks the silence. The spell shatters for a fleeting second. I realize I have two choices: to surrender to the panic or to push through.I close my eyes for a fraction of a second, inhaling deeply. My voice quivers as I force out my first word, brittle and fragile. But it's a start. The room is still watching, still waiting. But maybe—just maybe—I can keep going.",
+    
+    "finalScenePromptText": "As you step onto the stage, a blinding white light engulfs you, making it hard to distinguish the audience's faces. They are watching, expressionless, but their microexpressions shift in the corner of your eye. The podium's shadow stretches unnaturally long, as if tethering you in place.A synchronized heartbeat pulses through the room, perfectly matching your own erratic rhythm. Somewhere in the crowd, whispers flicker like static—indistinct words spoken just below the threshold of understanding.The stage begins to feel smaller, the walls pressing inward. Surveillance cameras above adjust their angles, tracking your every hesitation. You feel a tightening around your chest, an invisible weight pressing down as if someone has wrapped a pressure vest around your torso. Your fingers tremble, cold sweat clinging to your palms.Each breath, each movement feels exaggerated, as if you are being watched from all angles, scrutinized down to the slightest tremor in your voice. The lights flicker, shadows stretch unnaturally, and your own heartbeat becomes the only sound in the suffocating silence."
+  }
+}
